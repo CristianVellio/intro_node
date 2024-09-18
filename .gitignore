@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Archivos de entorno
+.env
+
+# Archivos de log
+*.log
+
+# Directorios de cache
+.npm/
+.yarn/
+
+# Archivos de pid
+*.pid
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Directorios de IDEs
+.vscode/
+.idea/
+
+# Archivos de cobertura de pruebas
+coverage/
+
+# Archivos generados y compilados
+dist/
+build/
+*.out
+
+# Archivos temporales
+*.swp
+*.swo
+
+# Configuración de Yarn Plug'n'Play
+.pnp/
+.pnp.js
