@@ -1,7 +1,41 @@
+html {
+  font-size: 10px;
+}
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.8;
 }
 h1 {
   font-size: 2em;
   color: #17be9a;
+}
+
+nav {
+  background-color: #17be9a;
+  color: white;
+  padding: 10px;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 3rem;
+}
+
+nav ul a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bolder;
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
 }
